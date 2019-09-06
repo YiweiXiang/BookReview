@@ -25,7 +25,9 @@ Firstly register yourself and then directly you login to our home page. Or if yo
 <h3>Search Functionality</h3>
 On the home page you can search for any book you want, list of books will be displayed. Click on more details you will be directed to book information page.
 
-<h3>Book Information Page</h3></br> Here user can have a preview of book( its cover and tabl of contents). User can add comments which will be displayed on the same page once you submit them. You can add rating too.
+<h3>Book Information Page</h3>
+Here user can have a preview of book( its cover and tabl of contents). User can add comments which will be displayed on the same page once you submit them. You can add rating too.
 
-<h3>Profile</h3></br> User can change his/her password anytime using his old password.</p>
+<h3>Profile</h3>
+User can change his/her password anytime using his old password.</p>
 
