@@ -3,9 +3,7 @@
 
 <h3>Description</h3></br>
 This web application is developed using Node.js and MongoDB to display reviews and ratings of books with the relevant information. Moreover, user can provide his/her own ratings and reviews to the books. 
-Setting up and using this app: Before clone or download this app. <b>MAKE SURE</b> you have：
-
-<b>MongoDB</b>
+Setting up and using this app. Before clone or download this app. <b>MAKE SURE</b> you have：<b>MongoDB</b>
 
 <h3>Download this app: </h3>
 #$(local file) git clone + copy the link 
