@@ -17,6 +17,7 @@ node ./tasks/seed.js
 #npm start </br>
 
 Then open the brower, go to http://localhost:3000/login
+
 Credentials for the professor: For login-> username: <b><u>Test</u></b>, password: <b><u>Test123</u></b>
 
 <h3>Register and Login</h3> 
