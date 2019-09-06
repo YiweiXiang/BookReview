@@ -1,4 +1,6 @@
-Book Review application This is group project for CS546 Web Programming @Stevens Institute of Technology. Groups Members: Yiwei Xiang, Sonal Gavade, Kajal Acharya, Ao Liu
+<h1>Book Review application </h1>
+This is group project for CS546 Web Programming 
+@Stevens Institute of Technology. Groups Members: Yiwei Xiang, Sonal Gavade, Kajal Acharya, Ao Liu
 
 This web application is developed using Node.js and MongoDB to display reviews and ratings of books with the relevant information. Moreover, user can provide his/her own ratings and reviews to the books. 
 Setting up and using this app: Before clone or download this app, make sure you have：
