@@ -1,0 +1,33 @@
+{
+  "name": "bookreview",
+  "version": "1.0.0",
+  "description": "Book Review Application CS 546 Final Project",
+  "main": "app.js",
+  "scripts": {
+    "seed": "node ./tasks/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KajolAch/BookReview.git"
+  },
+  "keywords": [
+    "bookreview"
+  ],
+  "author": "Kajol Acharya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KajolAch/BookReview/issues"
+  },
+  "homepage": "https://github.com/KajolAch/BookReview#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^3.1.10",
+    "uuid": "^3.3.2",
+    "xss": "^1.0.3"
+  }
+}

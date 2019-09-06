@@ -1,0 +1,23 @@
+<article>
+    <div class='display'>
+         
+            <h2 class='title'>Login</h2>
+            <form id = 'login-form' action= '/login' method = 'POST'>
+            <br>
+             <p class="error">{{error_msg}}</p>
+            <label for = 'username'>Username: </label>
+           
+            <input type="text" id = 'username' placeholder = 'username' name = 'username' required><br>
+            <br>
+            <br>
+
+            <label for = 'password'>Password: </label>
+            <input type="password" id = 'password' placeholder = 'password' name = 'password' required><br>
+            <br>
+            <br>
+            <button type = "submit" class= "buttonclass" value="submit">Login</button>
+            </form>
+               
+               <a class = "linkclass" href='/register'>New User? Register here</a>
+    </div>
+</article>

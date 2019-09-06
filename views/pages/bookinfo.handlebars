@@ -1,0 +1,54 @@
+<article>
+   <div>
+	    <ul>
+            <li><a class="active" href="../search">Home</a></li>
+            <li><a href="../profile">Profile</a></li>
+            <li><a href="../logout">Logout</a></li>
+        </ul>
+
+        <div class='display'>
+            <h2 class='title'>Book Information</h2>
+            <script type="text/javascript" src="https://www.google.com/books/jsapi.js"></script>
+            <script type="text/javascript">
+            google.books.load();
+            function initialize() {
+                var viewer = new google.books.DefaultViewer(document.getElementById('viewerCanvas'));
+
+                viewer.load('{{bookId}}');
+            //  books.volume.get('{{bookId}}')
+            }
+            google.books.setOnLoadCallback(initialize); </script>
+
+            <div id="viewerCanvas" class='bookimg'></div>
+            
+            <div class='bookreview'>
+                <p class="rating">Average Rating: {{rating}} </p>
+                <h3 class="title" style="text-align:center">User Reviews:</h3>
+                    {{#if hasReviews}}
+                    <p class="review" id="myReview">
+                        {{#each reviews}}
+                        {{!-- <li> --}}
+                        {{this.user}}:
+                        {{this.review}}
+                        <br>
+                        {{!-- </li> --}}
+                        {{/each}}
+                    </p>
+                    {{/if}}
+            </div>
+            <div class = 'comment'>
+                <form id="BookInfoForm" method="POST" action="/bookinfo/{{bookId}}">
+                    <label for ="review"></label>
+                    <textarea class='textarea_input' name="review" id="review" placeholder='Add Review'></textarea><br>
+                    <label for ="rating"></label>
+                    <input type="number" name="rating" id="rating" placeholder="/ 5"  min="0" max="5">
+                    <label for ="bookId"></label>
+                    <input type="hidden" value={{bookId}} name="bookId">
+                    <input class="f-r" value = 'Submit' type = 'submit'>
+                </form>
+                <p class="error">{{msg}}</p>
+            </div>
+        </div>
+        
+    </div>
+</article>

@@ -1,0 +1,30 @@
+<article>
+    <ul>
+        <li><a class="active" href="./search">Home</a></li>
+        <li><a href="./profile">Profile</a></li>
+        <li><a href="./logout">Logout</a></li>
+    </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form id="SearchForm" method="post">
+                    <h2>Search for Books</h2>
+                    <div id="custom-search-input">
+                        <div class="input-group col-md-12">
+                        {{!-- <input type="hidden" value={{userId}} name="userId"/> --}}
+                            <label for = "BookName"></label>
+                            <input type="text" name="BookName" class="form-control input-lg" id="BookName" placeholder="Books" />
+                            <span class="input-group-btn">
+                                <label for = "buttons"></label>
+                                <button class="btn btn-info btn-lg" type="submit" id= "buttons">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+                <ol id="BookList"></ol>
+            </div>
+        </div>
+    </div>
+</article>

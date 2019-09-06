@@ -1,0 +1,32 @@
+<artilce>
+    <ul>
+        <li><a class="active" href="./search">Home</a></li>
+        <li><a href="./profile">Profile</a></li>
+        <li><a href="./logout">Logout</a></li>
+    </ul>
+
+    <div class='display'>
+        <h1 class='title'>Change Password</h1>
+        <form id = 'change-password-form' action='/profile' method = 'POST'>
+        <br>
+         <p class="error">{{error_msg}}</p>
+        <p >{{success_msg}}</p>
+        <label for = 'username'>Username</label><br>
+        <input type="text" id = 'username' placeholder = 'Enter your username' name = 'username' required><br>
+        <br>
+        <br>
+        {{!-- here put the attribute you want to check for changing password--}}
+        <label for = 'password'>Password</label><br>
+        <input type="password" id = 'password' placeholder = 'Enter your password' name = 'password' required><br>
+        <br>
+        <br>
+
+        <label for = 'newpassword'> New Password</label><br>
+        <input type="password" id = 'newpassword' placeholder = 'Enter your new password' name = 'newpassword' required><br>
+        <br>
+        <br>
+
+        <button type="submit" class = "buttonclass" value = 'submit'>Save Changes</button>
+        </form>
+    </div>
+</artilce>
