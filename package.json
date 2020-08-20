@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/KajolAch/BookReview#readme",
   "dependencies": {
-    "bcrypt": "^3.0.2",
+    "bcrypt": "^5.0.0",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
